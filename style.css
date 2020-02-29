@@ -9,11 +9,11 @@
 
 /* basic elements */
 @media only screen and (max-width: 600px){
-	html {
+	html, body {
+		height: 100%;
+		margin: 0;
 		margin: 0;
 		padding: 0;
-		}
-	body {
 		font: 75% georgia, sans-serif;
 		line-height: 1.88889;
 		color: #555753; 
@@ -55,6 +55,7 @@
 		padding: 0;  
 		margin: 0; 
 		position: relative;
+		min-height: 100%;
 	}
 
 	.intro { 
@@ -91,7 +92,7 @@
 
 	.summary {
 		clear: both; 
-		margin: 220px 20px 20px 10px; 
+		margin-top: 110px; 
 		width: 100%; 
 		}
 	.summary p {
