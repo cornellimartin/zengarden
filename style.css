@@ -14,9 +14,6 @@
 		padding: 0;
 		}
 	body {
-		display: grid;
-		grid-template-columns: auto;
-		grid-template-rows: 12% 3% 25% 25% 25% 10%;  
 		font: 75% georgia, sans-serif;
 		line-height: 1.88889;
 		color: #555753; 
@@ -55,23 +52,21 @@
 
 	/* specific divs */
 	.page-wrapper { 
-		grid-row: 1 / 7;
 		padding: 0;  
 		margin: 0; 
 		position: relative;
-		}
+	}
 
 	.intro { 
-		grid-row: 1 / 4;
 		min-width: 470px;
 		width: 100%;
-		}
+	}
 
 	header h1 { 
-		grid-row: 1;
 		background: transparent url(http://csszengarden.com/001/h1.gif) no-repeat top left;
+		background-size: 150px;
+		margin-left: 150px;
 		margin-top: 10px;
-		margin-left: 40%;
 		display: block;
 		width: 219px;
 		height: 87px;
@@ -80,11 +75,8 @@
 		overflow: hidden;
 		}
 	header h2 { 
-		grid-row: 1;
 		background: transparent url(http://csszengarden.com/001/h2.gif) no-repeat top left; 
-		margin-top: 18px; 
-		margin-bottom: 40px; 
-		margin-left: 40%;
+		margin-left: 120px;
 		width: 200px; 
 		height: 18px; 
 		text-indent: 100%;
@@ -92,13 +84,7 @@
 		overflow: hidden;
 		}
 	header {
-		grid-row: 1;
-		padding-top: 20px;
 		height: 87px;
-	}
-
-	div#zen-summary.summary {
-		grid-row: 3;
 	}
 
 	.summary {
@@ -112,7 +98,6 @@
 		}
 
 	.preamble {
-		grid-row: 3;
 		clear: right; 
 		padding: 0px 10px 0 10px;
 		}
@@ -122,7 +107,6 @@
 		}
 
 	footer { 
-		grid-row: 6;
 		text-align: center; 
 		}
 	footer a:link, footer a:visited { 
@@ -197,10 +181,11 @@
 
 	.extra1 {
 		background: transparent url(Assets/logo-ver-1.jpg) top left no-repeat; 
+		background-size: 80%;
 		position: absolute; 
 		top: 40px; 
 		left: 10px; 
-		width: 148px; 
+		width: 118px; 
 		height: 110px;
 		}
 }
