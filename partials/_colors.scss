@@ -23,7 +23,14 @@ p a:hover {
     background-color: lighten($color-3, 1%);
 }
 .summary, .explanation, .benefits {
-    background-color: lighten($color-2, 1%);
+    //background-color: lighten($color-2, 1%);
+    /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#73e2a7+8,00e068+24,00e068+24,00e068+38,06e06c+42,00e068+50,00e068+60,00e068+69,00e068+100,2989d8+100,00e068+100 */
+    background: #73e2a7; /* Old browsers */
+    background: -moz-linear-gradient(left,  #73e2a7 8%, #00e068 24%, #00e068 24%, #00e068 38%, #06e06c 42%, #00e068 50%, #00e068 60%, #00e068 69%, #00e068 100%, #2989d8 100%, #00e068 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(left,  #73e2a7 8%,#00e068 24%,#00e068 24%,#00e068 38%,#06e06c 42%,#00e068 50%,#00e068 60%,#00e068 69%,#00e068 100%,#2989d8 100%,#00e068 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to right,  #73e2a7 8%,#00e068 24%,#00e068 24%,#00e068 38%,#06e06c 42%,#00e068 50%,#00e068 60%,#00e068 69%,#00e068 100%,#2989d8 100%,#00e068 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#73e2a7', endColorstr='#00e068',GradientType=1 ); /* IE6-9 */
+
 }
 .wrapper {
     background-color: $color-2;
@@ -34,7 +41,14 @@ p a:hover {
         text-decoration: none;
 }
 .wrapper a:hover {
-    color: $color-3;
+    //color: $color-3;
+    /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#c9f29b+100,1e5799+100 */
+    background: #c9f29b; /* Old browsers */
+    background: -moz-linear-gradient(left,  #c9f29b 100%, #1e5799 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(left,  #c9f29b 100%,#1e5799 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to right,  #c9f29b 100%,#1e5799 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#c9f29b', endColorstr='#1e5799',GradientType=1 ); /* IE6-9 */
+
 }
 
 .zen-validate-html, .zen-validate-css, .zen-license, .zen-accessibility, .zen-github  {
