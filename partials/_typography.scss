@@ -1,0 +1,36 @@
+//fonts
+$primary-font: 'Merriweather', serif;
+$secondary-font: 'Open Sans', sans-serif;
+
+$header-font-size: 30px;
+$primary-font-size: 20px;
+$secondary-font-size: 18px;
+$third-font-size: 15px;
+
+h1 {
+    font-size: $header-font-size;
+    font-family: $primary-font;
+}
+h2 {
+    font-size: $primary-font-size;
+    font-family: $primary-font;
+}
+
+h3 {
+    font-size: $secondary-font-size;
+    font-family: $secondary-font;
+}
+
+p {
+    font-size: $third-font-size;
+    font-family: $secondary-font;
+}
+
+.zen-validate-html, .zen-validate-css, .zen-license, .zen-accessibility, .zen-github  {
+    font-size: $secondary-font-size;
+    font-family: $secondary-font;
+}
+.wrapper li {
+    font-family: $secondary-font;
+    font-size: $third-font-size;
+}

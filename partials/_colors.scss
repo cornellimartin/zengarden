@@ -1,0 +1,43 @@
+$color-1: #1c7c54; //dark blue-green
+$color-2: #73e2a7; //light blue-green
+$color-3: #def4c6; //light blue-green
+$color-4: #1b512d; //dark green
+$color-5: #b1cf5f; //light green
+$color-6: #062410; //dark green
+
+h1, h2, h3 {
+    color: $color-6;
+}
+
+p {
+    color: $color-6;
+}
+p a {
+    color: $color-6;
+}
+p a:hover {
+    color: $color-5;
+}
+
+.preamble, .participation, .requirements {
+    background-color: lighten($color-3, 1%);
+}
+.summary, .explanation, .benefits {
+    background-color: lighten($color-2, 1%);
+}
+.wrapper {
+    background-color: $color-2;
+
+}
+.wrapper a {
+        color: $color-6;
+        text-decoration: none;
+}
+.wrapper a:hover {
+    color: $color-3;
+}
+
+.zen-validate-html, .zen-validate-css, .zen-license, .zen-accessibility, .zen-github  {
+    color: $color-6;
+    text-decoration: none;
+}

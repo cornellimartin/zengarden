@@ -1,0 +1,112 @@
+@import url("https://fonts.googleapis.com/css?family=Merriweather|Open+Sans&display=swap");
+h1, h2, h3 {
+  color: #062410;
+}
+
+p {
+  color: #062410;
+}
+
+p a {
+  color: #062410;
+}
+
+p a:hover {
+  color: #b1cf5f;
+}
+
+.preamble, .participation, .requirements {
+  background-color: #e0f5ca;
+}
+
+.summary, .explanation, .benefits {
+  background-color: #77e3aa;
+}
+
+.wrapper {
+  background-color: #73e2a7;
+}
+
+.wrapper a {
+  color: #062410;
+  text-decoration: none;
+}
+
+.wrapper a:hover {
+  color: #def4c6;
+}
+
+.zen-validate-html, .zen-validate-css, .zen-license, .zen-accessibility, .zen-github {
+  color: #062410;
+  text-decoration: none;
+}
+
+body {
+  background: url("Assets/ZenGardenBackground.jpg") no-repeat center center fixed;
+}
+
+h1, h2, footer {
+  text-align: center;
+}
+
+.summary, .preamble, .explanation, .participation, .benefits, .requirements {
+  padding: 20px;
+}
+
+.wrapper {
+  padding: 20px;
+}
+
+footer {
+  padding: 20px;
+}
+
+@media screen and (min-width: 800px) {
+  .wrapper {
+    height: 100%;
+    width: 275px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    overflow-x: hidden;
+    padding-top: 35px;
+  }
+
+  body {
+    margin-left: 325px;
+  }
+}
+h1 {
+  font-size: 30px;
+  font-family: "Merriweather", serif;
+}
+
+h2 {
+  font-size: 20px;
+  font-family: "Merriweather", serif;
+}
+
+h3 {
+  font-size: 18px;
+  font-family: "Open Sans", sans-serif;
+}
+
+p {
+  font-size: 15px;
+  font-family: "Open Sans", sans-serif;
+}
+
+.zen-validate-html, .zen-validate-css, .zen-license, .zen-accessibility, .zen-github {
+  font-size: 18px;
+  font-family: "Open Sans", sans-serif;
+}
+
+.wrapper li {
+  font-family: "Open Sans", sans-serif;
+  font-size: 15px;
+}
+
+/*# sourceMappingURL=style.css.map */
+
+/*# sourceMappingURL=style.css.map */
