@@ -19,7 +19,7 @@ p a:hover {
   background-color: #e0f5ca;
 }
 
-.summary, .explanation, .benefits {
+.summary, .explanation, .benefits, footer {
   /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#73e2a7+8,00e068+24,00e068+24,00e068+38,06e06c+42,00e068+50,00e068+60,00e068+69,00e068+100,2989d8+100,00e068+100 */
   background: #73e2a7;
   /* Old browsers */
@@ -71,6 +71,8 @@ h1, h2, footer {
 
 .summary, .preamble, .explanation, .participation, .benefits, .requirements {
   padding: 20px;
+  border-radius: 90px 5px;
+  box-shadow: 0px 1px 10px 10px rgba(0, 0, 0, 0.5);
 }
 
 .wrapper {
@@ -79,6 +81,34 @@ h1, h2, footer {
 
 footer {
   padding: 20px;
+  border-radius: 90px 5px;
+  box-shadow: 0px 1px 10px 10px rgba(0, 0, 0, 0.5);
+}
+
+.zen-validate-html {
+  background: url("Assets/Icons/icon-1.svg") no-repeat;
+  color: transparent;
+  margin-right: -20px;
+}
+
+.zen-validate-css {
+  background: url("Assets/Icons/icon-2.svg") no-repeat;
+  color: transparent;
+}
+
+.zen-license {
+  background: url("Assets/Icons/icon-3.svg") no-repeat;
+  color: transparent;
+}
+
+.zen-accessibility {
+  background: url("Assets/Icons/icon-4.svg") no-repeat;
+  color: transparent;
+}
+
+.zen-github {
+  background: url("Assets/Icons/icon-5.svg") no-repeat;
+  color: transparent;
 }
 
 @media screen and (min-width: 800px) {
