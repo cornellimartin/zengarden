@@ -35,6 +35,7 @@ p a:hover {
 
 .wrapper {
   background-color: #73e2a7;
+  opacity: 0.75;
 }
 
 .wrapper a {
