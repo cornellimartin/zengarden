@@ -16,6 +16,22 @@ h1, h2, footer {
 .wrapper {
     padding: 20px;
 }
+@keyframes slideInFromRight {
+    0% {
+      transform: translateX(100%);
+    }
+    100% {
+      transform: translateX(0);
+      font-style: italic;
+    }
+  }
+  
+  header {  
+    animation: 1s ease-out 0s 1 slideInFromRight;  
+    background-color: rgba(0,0,0,.0001);
+    font-style: normal;
+    transition: font-style 2s infinite; 
+  }
 footer {
     padding: 20px;
     border-radius: 90px 5px;
