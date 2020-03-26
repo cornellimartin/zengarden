@@ -172,6 +172,12 @@ p {
 .wrapper li {
   font-family: "Shadows Into Light", cursive;
   font-size: 20px;
+  transition: all 1s;
+}
+
+.wrapper li:hover {
+  transform: scale(1.2);
+  overflow-x: hidden;
 }
 
 /*# sourceMappingURL=style.css.map */

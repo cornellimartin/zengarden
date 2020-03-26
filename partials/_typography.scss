@@ -33,4 +33,10 @@ p {
 .wrapper li {
     font-family: $secondary-font;
     font-size: $primary-font-size;
+    transition:all 1s;
+}
+
+.wrapper li:hover{
+    transform: scale(1.2);
+    overflow-x:hidden;
 }
