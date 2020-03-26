@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css?family=Merriweather|Open+Sans&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Montserrat|Shadows+Into+Light&display=swap");
 h1, h2, h3 {
   color: #062410;
 }
@@ -145,33 +145,33 @@ footer {
   }
 }
 h1 {
-  font-size: 30px;
-  font-family: "Merriweather", serif;
+  font-size: 40px;
+  font-family: "Montserrat", sans-serif;
 }
 
 h2 {
   font-size: 20px;
-  font-family: "Merriweather", serif;
+  font-family: "Montserrat", sans-serif;
 }
 
 h3 {
-  font-size: 18px;
-  font-family: "Open Sans", sans-serif;
+  font-size: 30px;
+  font-family: "Shadows Into Light", cursive;
 }
 
 p {
-  font-size: 15px;
-  font-family: "Open Sans", sans-serif;
+  font-size: 25px;
+  font-family: "Shadows Into Light", cursive;
 }
 
 .zen-validate-html, .zen-validate-css, .zen-license, .zen-accessibility, .zen-github {
-  font-size: 18px;
-  font-family: "Open Sans", sans-serif;
+  font-size: 30px;
+  font-family: "Shadows Into Light", cursive;
 }
 
 .wrapper li {
-  font-family: "Open Sans", sans-serif;
-  font-size: 15px;
+  font-family: "Shadows Into Light", cursive;
+  font-size: 20px;
 }
 
 /*# sourceMappingURL=style.css.map */

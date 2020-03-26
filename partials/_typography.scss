@@ -1,11 +1,11 @@
 //fonts
-$primary-font: 'Merriweather', serif;
-$secondary-font: 'Open Sans', sans-serif;
+$primary-font: 'Montserrat', sans-serif;
+$secondary-font: 'Shadows Into Light', cursive;
 
-$header-font-size: 30px;
+$header-font-size: 40px;
 $primary-font-size: 20px;
-$secondary-font-size: 18px;
-$third-font-size: 15px;
+$secondary-font-size: 30px;
+$third-font-size: 25px;
 
 h1 {
     font-size: $header-font-size;
@@ -32,5 +32,5 @@ p {
 }
 .wrapper li {
     font-family: $secondary-font;
-    font-size: $third-font-size;
+    font-size: $primary-font-size;
 }
