@@ -43,20 +43,6 @@ p a:hover {
   text-decoration: none;
 }
 
-.wrapper a:hover {
-  /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#c9f29b+100,1e5799+100 */
-  background: #c9f29b;
-  /* Old browsers */
-  background: -moz-linear-gradient(left, #c9f29b 100%, #1e5799 100%);
-  /* FF3.6-15 */
-  background: -webkit-linear-gradient(left, #c9f29b 100%, #1e5799 100%);
-  /* Chrome10-25,Safari5.1-6 */
-  background: linear-gradient(to right, #c9f29b 100%, #1e5799 100%);
-  /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr="#c9f29b", endColorstr="#1e5799",GradientType=1 );
-  /* IE6-9 */
-}
-
 .zen-validate-html, .zen-validate-css, .zen-license, .zen-accessibility, .zen-github {
   color: #062410;
   text-decoration: none;
