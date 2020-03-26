@@ -143,6 +143,8 @@ h2 {
 h3 {
   font-size: 30px;
   font-family: "Shadows Into Light", cursive;
+  margin-bottom: 0px;
+  margin-top: 5px;
 }
 
 p {
@@ -159,6 +161,13 @@ p {
   font-family: "Shadows Into Light", cursive;
   font-size: 20px;
   transition: all 1s;
+  list-style: none;
+  margin-top: 7px;
+}
+
+.wrapper ul {
+  margin-top: 0px;
+  margin-bottom: 0px;
 }
 
 .wrapper li:hover {

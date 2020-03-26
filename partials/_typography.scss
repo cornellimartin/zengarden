@@ -19,6 +19,8 @@ h2 {
 h3 {
     font-size: $secondary-font-size;
     font-family: $secondary-font;
+    margin-bottom: 0px;
+    margin-top: 5px;
 }
 
 p {
@@ -33,7 +35,14 @@ p {
 .wrapper li {
     font-family: $secondary-font;
     font-size: $primary-font-size;
-    transition:all 1s;
+    transition: all 1s;
+    list-style: none;
+    margin-top: 7px;
+}
+
+.wrapper ul{
+    margin-top: 0px;
+    margin-bottom: 0px;
 }
 
 .wrapper li:hover{
