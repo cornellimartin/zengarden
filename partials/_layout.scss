@@ -8,7 +8,7 @@ h1, h2, footer {
     text-align: center;
 }
 
-section header h1::before {
+/*section header h1::before {
     background: url(/Assets/logo-ver-1.jpg) no-repeat;
     height: 100px;
     width: 100px;
@@ -21,7 +21,7 @@ section header h1::before {
     content: "";
     top: 15px;
     margin-right: 15px;
-  }
+  }*/
 
 .summary, .preamble, .explanation, .participation, .benefits, .requirements {
     padding: 20px;  
@@ -45,7 +45,7 @@ section header h1::before {
     animation: 1s ease-out 0s 1 slideInFromRight;  
     background-color: rgba(0,0,0,.0001);
     font-style: normal;
-    transition: font-style 2s infinite; 
+    transition: font-style 2s; 
   }
 footer {
     padding: 20px;
