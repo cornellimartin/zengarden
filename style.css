@@ -61,7 +61,7 @@ h2 {
 }
 
 section header h1::before {
-  background: url(/Assets/logo-sm.jpg) no-repeat;
+  background: url(/Assets/logo-sm.jpg) no-repeat, #b1cf5f;
   height: 100px;
   width: 100px;
   border-radius: 90px 5px;
