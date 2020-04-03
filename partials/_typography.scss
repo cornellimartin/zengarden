@@ -1,24 +1,24 @@
 //fonts
+$header-font: 'Shadows Into Light', cursive;
 $primary-font: 'Montserrat', sans-serif;
-$secondary-font: 'Shadows Into Light', cursive;
 
-$header-font-size: 40px;
-$primary-font-size: 20px;
+$header-font-size: 50px;
+$primary-font-size: 30px;
 $secondary-font-size: 30px;
-$third-font-size: 25px;
+$third-font-size: 15px;
 
 h1 {
     font-size: $header-font-size;
-    font-family: $secondary-font;
+    font-family: $header-font;
 }
 h2 {
     font-size: $primary-font-size;
-    font-family: $secondary-font;
+    font-family: $header-font;
 }
 
 h3 {
     font-size: $secondary-font-size;
-    font-family: $primary-font;
+    font-family: $header-font;
     margin-bottom: 0px;
     margin-top: 5px;
 }
