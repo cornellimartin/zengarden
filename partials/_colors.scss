@@ -1,27 +1,25 @@
-//$color-1: #1c7c54; //dark blue-green
-//$color-2: #73e2a7; //light blue-green
-$color-3: #def4c6; //light blue-green
-$color-4: #1b512d; //dark green
-$color-5: #b1cf5f; //light green
-$color-6: #062410; //dark green
+//colors
+$color-1: #def4c6; //light blue-green
+$color-2: #b1cf5f; //light green
+$color-3: #062410; //dark green
 
 
 h1, h2, h3 {
-    color: $color-6;
+    color: $color-3;
 }
 
 p {
-    color: $color-6;
+    color: $color-3;
 }
 p a {
-    color: $color-6;
+    color: $color-3;
 }
 p a:hover {
-    color: $color-5;
+    color: $color-2;
 }
 
 .preamble, .participation, .requirements {
-    background-color: lighten($color-3, 1%);
+    background-color: lighten($color-1, 1%);
 }
 
 .summary, .explanation, .benefits, footer {
@@ -33,16 +31,16 @@ filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#def4c6",endCo
   }
 
 .wrapper {
-    background-color: $color-5;
+    background-color: $color-2;
     opacity: .75;
 
 }
 .wrapper a {
-        color: $color-6;
+        color: $color-3;
         text-decoration: none;
 }
 
 .zen-validate-html, .zen-validate-css, .zen-license, .zen-accessibility, .zen-github  {
-    color: $color-6;
+    color: $color-3;
     text-decoration: none;
 }
