@@ -19,7 +19,6 @@ p a:hover {
   background-color: #e0f5ca;
 }
 
-/* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#73e2a7+8,00e068+24,00e068+24,00e068+38,06e06c+42,00e068+50,00e068+60,00e068+69,00e068+100,2989d8+100,00e068+100 */
 .summary, .explanation, .benefits, footer {
   background: #def4c6;
   background: -moz-linear-gradient(90deg, #def4c6 0%, #b1cf5f 50%, #1b512d 100%);
@@ -177,14 +176,6 @@ h3 {
   margin-top: 5px;
 }
 
-/*
-.preamble h3 {
-    font-size: $secondary-font-size;
-    font-family: $header-font;
-    margin-bottom: 0px;
-    margin-top: 5px;
-}
-*/
 p {
   font-size: 20px;
   font-family: "Montserrat", sans-serif;

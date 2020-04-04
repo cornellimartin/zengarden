@@ -10,8 +10,6 @@ $third-font-size: 20px;
 h1, h2, h3 {
     font-family: $header;
 }
-
-
 h1 {
     font-size: $header-font-size;
 }
@@ -24,14 +22,7 @@ h3 {
     margin-bottom: 0px;
     margin-top: 5px;
 }
-/*
-.preamble h3 {
-    font-size: $secondary-font-size;
-    font-family: $header-font;
-    margin-bottom: 0px;
-    margin-top: 5px;
-}
-*/
+
 p {
     font-size: $third-font-size;
     font-family: $primary;
