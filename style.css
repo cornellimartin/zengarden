@@ -78,10 +78,10 @@ section header h1::before {
 
 @keyframes turning {
   0% {
-    border-radius: 0;
+    border-radius: 0 100px;
   }
   100% {
-    border-radius: 100;
+    border-radius: 100px 0;
   }
 }
 .summary, .preamble, .explanation, .participation, .benefits, .requirements {
